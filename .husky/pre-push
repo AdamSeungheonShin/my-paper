@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+current_branch=$(git branch --show-current)
+
+restricted_branches="^(main|develop)$"
+
+if [[ $current_branch =~ $restricted_branches ]]; then
+  echo "❌ You cannot push on a restricted branch: $current_branch.."
+  echo "❌ Not allowed via pre-push hook.."
+  exit 1
+fi
