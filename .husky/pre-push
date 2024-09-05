@@ -1,5 +1,10 @@
 pnpm lint
 
+echo "🚚 Finished linting.."
+echo "✔ Check branch before merge! /\_/\ "
+echo "✔ Check branch before merge!( o.o )"
+echo "✔ Check branch before merge! > ^ < "
+
 current_branch=$(git branch --show-current)
 
 restricted_branches="^(main|develop)$"
