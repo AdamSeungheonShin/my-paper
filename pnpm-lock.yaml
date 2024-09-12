@@ -20,6 +20,9 @@ importers:
       react-dom:
         specifier: ^18
         version: 18.3.1(react@18.3.1)
+      tailwindcss-preset-px-to-rem:
+        specifier: ^1.2.1
+        version: 1.2.1
     devDependencies:
       '@eslint/js':
         specifier: ^9.10.0
@@ -1783,6 +1786,9 @@ packages:
   synckit@0.9.1:
     resolution: {integrity: sha512-7gr8p9TQP6RAHusBOSLs46F4564ZrjV8xFmw5zCmgmhGUcw2hxsShhJ6CEiHQMgPDwAQ1fWHPM0ypc4RMAig4A==}
     engines: {node: ^14.18.0 || >=16.0.0}
+
+  tailwindcss-preset-px-to-rem@1.2.1:
+    resolution: {integrity: sha512-m3GHwciFiXZviaN7WvOiiMjRBT7razJxgPTY6h2KcOvzvkOTysOV6gN3HkejfXUyL4DKx6YjiPcLCqv6yMeXHw==}
 
   tailwindcss@3.4.10:
     resolution: {integrity: sha512-KWZkVPm7yJRhdu4SRSl9d4AK2wM3a50UsvgHZO7xY77NQr2V+fIrEuoDGQcbvswWvFGbS2f6e+jC/6WJm1Dl0w==}
@@ -3851,6 +3857,8 @@ snapshots:
     dependencies:
       '@pkgr/core': 0.1.1
       tslib: 2.7.0
+
+  tailwindcss-preset-px-to-rem@1.2.1: {}
 
   tailwindcss@3.4.10:
     dependencies:
