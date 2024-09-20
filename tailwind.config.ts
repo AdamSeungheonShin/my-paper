@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss"
 
 const config: Config = {
   content: [
@@ -9,11 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        yzy: {
+          "100": "#e7e2bf",
+          "200": "#e5dab7",
+          "300": "#e8ca93",
+          "400": "#c8c9ac",
+          "500": "#928b61",
+          "600": "#9a8262",
+          black: "#090808",
+        },
       },
     },
   },
-  plugins: [],
-};
-export default config;
+  presets: [require("tailwindcss-preset-px-to-rem")],
+}
+
+export default config
