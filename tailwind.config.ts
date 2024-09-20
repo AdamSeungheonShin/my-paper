@@ -21,7 +21,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("tailwindcss-preset-px-to-rem")],
+  presets: [require("tailwindcss-preset-px-to-rem")],
 }
 
 export default config
